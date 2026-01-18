@@ -1,4 +1,5 @@
 import express, { type Application } from "express";
+import cookieParser from "cookie-parser"
 import { connectDb } from "./database/database.js";
 
 const app: Application = express();
