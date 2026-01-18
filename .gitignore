@@ -1,0 +1,12 @@
+# Ignore dependency folders in any directory
+node_modules/
+**/node_modules/
+
+# Ignore environment and config files in any directory
+.env
+*.env
+config/
+**/config/
+
+# Specific path ignoring for your current structure
+backend/config/
